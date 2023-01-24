@@ -1,0 +1,219 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.chess-board{
+  margin-top: 0.5%;
+  overflow: auto;
+  padding-top: 10px;
+  
+}
+
+.historychess-board{
+  margin-top: 0.25%;
+  overflow: auto;
+  padding-top: 1px;
+  
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.board-row{
+  width: 400px;
+  margin: auto;
+}
+
+.historyboard-row{
+  width: 328px;
+  margin: auto;
+}
+.historyboard-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square-w {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.square-b {
+  background: greenyellow;
+  border: 1px solid #999;
+  float: left;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.historysquare-w {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  height: 41px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 41px;
+}
+
+.historysquare-b {
+  background: greenyellow;
+  border: 1px solid #999;
+  float: left;
+  height: 41px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 41px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.square-change {
+  background: white;
+  border: 1px solid #999;
+  float: left;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 50px;
+}
+
+.showAlert {
+  margin-top: 7%;
+  margin: auto;
+  overflow: auto;
+  padding-top: 10px;
+}
+
+.alertWon{
+  text-align: center;
+  color:green;
+}
+
+.alertLost{
+  text-align: center;
+  color:red;
+}
+
+.alert{
+  text-align: center;
+}
+
+.buttonOk{
+  margin-left: 47.5%;
+  background-color: transparent; /* Green */
+  border: none;
+  color: grey;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 5%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonOk:hover{
+  background-color: grey;
+  color: white;
+}
+
+.changePawn {
+  width: 200px;
+  margin-top: 7%;
+  margin: auto;
+  overflow: auto;
+  padding-top: 10px;
+}
+
+.back-for{
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.emptyChange{
+  height: 50px;
+  padding-top: 10px;
+}
+.button5 {
+  margin-left: 100px;
+  margin-top: -1px;
+  background-color: transparent; /* Green */
+  border: none;
+  color: grey;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 25%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5:hover{
+  background-color: grey;
+  color: white;
+}
+.button6 {
+  margin-left: -1px;
+  margin-top: -1px;
+  background-color: transparent; /* Green */
+  border: none;
+  color: gray;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 25%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button6:hover{
+  background-color: grey;
+  color: white;
+}
